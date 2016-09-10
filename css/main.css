@@ -1,0 +1,21 @@
+body {
+    background-color: #E4EAF1;
+    color: #0C3167;
+}
+
+a {
+    color: #0C3167;
+}
+
+.page-content {
+    padding: 10px;
+}
+
+.post-content {
+    padding: 10px;
+}
+
+.one-post {
+    padding-bottom: 20px;
+}
+
