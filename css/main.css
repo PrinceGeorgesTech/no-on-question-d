@@ -9,6 +9,13 @@ a {
 
 .page-content {
     padding: 10px;
+    margin: 5%;
+    background: white;
+}
+
+.page-content p  {
+    color: green;
+    font-size: 120%;
 }
 
 .post-content {
@@ -38,3 +45,4 @@ blockquote {
     color: #0C3167;
     font-size: 1.5em;
 }
+
