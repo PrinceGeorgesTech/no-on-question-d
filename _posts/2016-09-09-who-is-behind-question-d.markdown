@@ -3,6 +3,7 @@ layout: post
 title:  "Who Is Behind Question D?"
 date:   2016-09-09 22:11:23 -0400
 excerpt: Dessert pie pie ice cream. Lemon drops macaroon donut.
+permalink: /who-is-behind-question-d
 ---
 The history of the Council is that most of the District seats have been funded over the years by special interests: developers, labor unions, County contractors and utility companies. Council Term limits have created an opportunity for grass roots candidates to be able to compete for open seats. It's tough to beat the special interest candidates, but it can happen.
 

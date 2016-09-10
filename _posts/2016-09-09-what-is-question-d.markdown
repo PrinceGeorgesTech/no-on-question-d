@@ -3,6 +3,7 @@ layout: post
 title:  "What Is Question D?"
 date:   2016-09-09 22:11:23 -0400
 excerpt: Dessert pie pie ice cream. Lemon drops macaroon donut.
+permalink: /what-is-question-d
 ---
 QUESTION D
 (CB-40-2016) (DR-2)

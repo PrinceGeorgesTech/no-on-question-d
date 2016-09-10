@@ -8,17 +8,43 @@
     {% include header.html %}
 
     <div class="page-content">
-        <ul class="post-list">
-          <div class="one-post">
-            {% for post in site.posts %}
-              <div class="one-post">
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-                </h2>
-                <p>{{ post.excerpt }}</p>
-              </div>
-            {% endfor %}
-        </ul>
+        <div class="row post-row">
+          <div class="col-sm-6">
+            <h2>
+              <a class="post-link" href="/what-is-question-d">What Is Question D?</a>
+            </h2>
+            <p>Dessert pie pie ice cream. Lemon drops macaroon donut.</p>
+          </div>
+
+          <div class="col-sm-6">
+            <h2>
+              <a class="post-link" href="/why-were-against-question-d">Why We're Against Question D</a>
+            </h2>
+            <p>Dessert pie pie ice cream. Lemon drops macaroon donut.</p>
+          </div>
+        </div>
+
+        <div class="row post-row">
+          <div class="col-sm-6">
+            <h2>
+              <a class="post-link" href="/who-is-behind-question-d">Who Is Behind Question D?</a>
+            </h2>
+            <p>Dessert pie pie ice cream. Lemon drops macaroon donut.</p>
+          </div>
+
+          <div class="col-sm-6">
+            <h2>
+              <a class="post-link" href="/debunking-myths">Debunking Myths</a>
+            </h2>
+            <p>Dessert pie pie ice cream. Lemon drops macaroon donut.</p>
+          </div>
+        </div>
+
+        <div class='row blockquote-div'>
+          <div class="col-sm-12">
+          <blockquote><h3>The Washington Post called Question D "a jobs plan for Prince George's County council members"</h3><p><a class="btn btn-primary btn-lg" href="https://www.washingtonpost.com/opinions/a-jobs-plan-for-prince-georges-county-councilmembers/2016/07/29/9d73ec2a-5504-11e6-b7de-dfe509430c39_story.html?utm_term=.5e2f3a90e8bf">Read the op-ed > </a></p></blockquote>
+          </div>
+        </div>
     </div>
 
     {% include footer.html %}
