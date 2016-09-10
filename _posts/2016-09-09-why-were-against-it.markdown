@@ -2,6 +2,7 @@
 layout: post
 title:  "Why We're Against Question D?"
 date:   2016-09-09 22:11:23 -0400
+excerpt: Dessert pie pie ice cream. Lemon drops macaroon donut.
 ---
 There are many reasons to Vote No. Take your pick. A self-serving Charter Amendment? Sneaking it onto the Ballot? Hiding the Question among the bond questions? Ignoring the Will of the People? Cost to taxpayers? Collaborating with Special Interests?
 
