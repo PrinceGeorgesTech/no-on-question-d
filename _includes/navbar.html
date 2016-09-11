@@ -1,30 +1,42 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">No On Question D</a>
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Why No? <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="{{ "/why-no/" | prepend: site.baseurl }}">Overview</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ "/why-no/cost" | prepend: site.baseurl }}">Cost</a></li>
+              <li><a href="{{ "/why-no/political-deception" | prepend: site.baseurl }}">Political Deception</a></li>
+              <li><a href="{{ "/why-no/self-serving-politicians" | prepend: site.baseurl }}">Self-Serving Politicians</a></li>
+              <li><a href="{{ "/why-no/special-interests" | prepend: site.baseurl }}">Special Interests</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">History <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ "/history/" | prepend: site.baseurl }}">Overview</a></li>
-            <li class="divider"></li>
-            <li><a href="{{ "/history/1992" | prepend: site.baseurl }}">1992</a></li>
-            <li><a href="{{ "/history/2000" | prepend: site.baseurl }}">2000</a></li>
-            <li><a href="{{ "/history/2004" | prepend: site.baseurl }}">2004</a></li>
-            <li><a href="{{ "/history/2014" | prepend: site.baseurl }}">2014</a></li>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="{{ "/history/" | prepend: site.baseurl }}">Overview</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ "/history/1992" | prepend: site.baseurl }}">1992</a></li>
+              <li><a href="{{ "/history/2000" | prepend: site.baseurl }}">2000</a></li>
+              <li><a href="{{ "/history/2004" | prepend: site.baseurl }}">2004</a></li>
+              <li><a href="{{ "/history/2014" | prepend: site.baseurl }}">2014</a></li>
           </ul>
-         </ul>
-        </ul>
-      <ul class="nav navbar-nav">
+        </li>
+        <li><a href="{{ "/take-action" | prepend: site.baseurl }}">Take Action</a></li>
         <li><a href="{{ site.donate_url }}">Donate</a></li>
       </ul>
     </div>
