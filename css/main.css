@@ -1,12 +1,13 @@
 body {
     margin: 0% 3% 3% 3%;
     background-color: #E4EAF1;
-    color: #0C3167;
+    color: black;
     font-family: "Raleway";
+    background-image: url("http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg");
 }
 
 .image-background{
-    background-image: url('http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg');
+    background-image: url("http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg");
     overflow: hidden;
     height: 100%;
     z-index: 2;
@@ -17,21 +18,22 @@ a {
 }
 
 a:hover {
-    color: #FF8C00;
+    color: #6F1123;
 }
+
 
 .page-content {
     padding: 10px;
     background: white;
     border: 1px dotted #FF8C00;
+    padding: 10px;
 }
 
-.page-content p  {
+.page-content p li {
     font-size: 120%;
 }
 
 .post-content {
-    padding: 10px;
 }
 
 .one-post {
@@ -54,17 +56,17 @@ blockquote {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #0C3167;
+    color: white;
     font-size: 1.2em;
 }
 
 .line-separator {
     height:1px;
-    border-bottom: 2px dotted #4582EC;
+    border-bottom: 2px dotted black;
 }
 
 .navbar {
-    background-color: #0C3167;
+    background-color: black;
     margin-bottom: 0px
 }
 
@@ -74,11 +76,11 @@ blockquote {
 
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
-    background-color: #0C3167;
+    background-color: #6F1123;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    background-color: #0C3167;
+    background-color: #6F1123;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -94,7 +96,7 @@ blockquote {
         color: white;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
-        color: #FF8C00;
+        color: #6F1123;
     }
 }
 
@@ -112,22 +114,33 @@ blockquote {
   width: 50%;
   float: none;
   margin-right: 0;
-  background-color: #0C3167;
   color: white;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #0C3167;
+    border-color: #CA9206;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-    background-color: #0C3167;
+    background-color: #6F1123;
 }
 
 .dropdown-menu {
-    background-color: #0C3167;
+    background-color: black;
 }
 
 .dropdown-menu>li>a {
+    color: white;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #6F1123;
+}
+
+header {
+    background-color: black;
+}
+
+header a {
     color: white;
 }
