@@ -1,4 +1,5 @@
 body {
+    margin: 0% 3% 3% 3%;
     background-color: #E4EAF1;
     color: #0C3167;
     font-family: "Raleway";
@@ -21,7 +22,6 @@ a:hover {
 
 .page-content {
     padding: 10px;
-    margin: 5%;
     background: white;
     border: 1px dotted #FF8C00;
 }
