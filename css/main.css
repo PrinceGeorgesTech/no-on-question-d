@@ -50,6 +50,7 @@ blockquote {
     font-size: 1.2em;
 }
 
+
 .line-separator {
     height:1px;
     border-bottom: 2px dotted #4582EC;
@@ -86,4 +87,20 @@ blockquote {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
         color: #FF8C00;
     }
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    float: none;
+}
+
+.navbar-toggle {
+  width: 50%;
+  float: none;
+  margin-right: 0;
 }
