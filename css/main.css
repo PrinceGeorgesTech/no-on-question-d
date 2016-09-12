@@ -1,10 +1,15 @@
 body {
     background-color: #E4EAF1;
     color: #0C3167;
+    font-family: "Raleway";
 }
 
 a {
     color: #0C3167;
+}
+
+a:hover {
+    color: #FF8C00;
 }
 
 .page-content {
@@ -45,3 +50,40 @@ blockquote {
     font-size: 1.2em;
 }
 
+.line-separator {
+    height:1px;
+    border-bottom: 2px dotted #4582EC;
+}
+
+.navbar {
+    background-color: #0C3167;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #0C3167;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: white;
+}
+
+.dropdown-menu>li>a {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #FF8C00;
+    }
+}
