@@ -66,6 +66,7 @@ blockquote {
 
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
+    background-color: #0C3167;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -103,4 +104,22 @@ blockquote {
   width: 50%;
   float: none;
   margin-right: 0;
+  background-color: #0C3167;
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #0C3167;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #0C3167;
+}
+
+.dropdown-menu {
+    background-color: #0C3167;
+}
+
+.dropdown-menu>li>a {
+    color: white;
 }
