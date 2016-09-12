@@ -4,6 +4,13 @@ body {
     font-family: "Raleway";
 }
 
+.image-background{
+    background-image: url('http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg');
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
 a {
     color: #0C3167;
 }
@@ -51,7 +58,6 @@ blockquote {
     font-size: 1.2em;
 }
 
-
 .line-separator {
     height:1px;
     border-bottom: 2px dotted #4582EC;
@@ -59,6 +65,7 @@ blockquote {
 
 .navbar {
     background-color: #0C3167;
+    margin-bottom: 0px
 }
 
 .navbar-default .navbar-nav>li>a {
