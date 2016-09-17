@@ -6,11 +6,17 @@ body {
     background-image: url("http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg");
 }
 
-.image-background{
-    background-image: url("http://cdn.wallpapersafari.com/35/41/tu2vCh.jpg");
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
+.pg-seal{
+    max-height: 15%;
+    max-width: 15%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 5px;
+}
+
+hr {
+    height:1px;
+    border-top: 2px dotted black;
 }
 
 a {
@@ -48,6 +54,7 @@ a:hover {
 blockquote {
     padding-top: 20px;
     padding-bottom: 20px;
+    border-left: 5px solid #6F1123;
 }
 
 .blockquote-div{
@@ -57,11 +64,6 @@ blockquote {
 .navbar-default .navbar-nav>li>a {
     color: white;
     font-size: 1.2em;
-}
-
-.line-separator {
-    height:1px;
-    border-bottom: 2px dotted black;
 }
 
 .navbar {
@@ -97,6 +99,17 @@ blockquote {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
         color: #6F1123;
     }
+    .pg-seal{
+    max-height: 25%;
+    max-width: 25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
 }
 
 .navbar .navbar-nav {
