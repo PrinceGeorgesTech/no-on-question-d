@@ -19,6 +19,7 @@ GEM
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.14)
+    ffi (1.9.14-java)
     forwardable-extended (2.6.0)
     gemoji (2.1.0)
     github-pages (95)
@@ -91,6 +92,7 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0)
     json (1.8.3)
+    json (1.8.3-java)
     kramdown (1.11.1)
     liquid (3.0.6)
     listen (3.0.6)
@@ -105,6 +107,7 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+    nokogiri (1.6.8-java)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
     pathutil (0.14.0)
@@ -123,6 +126,7 @@ GEM
     terminal-table (1.7.2)
       unicode-display_width (~> 1.1.1)
     thread_safe (0.3.5)
+    thread_safe (0.3.5-java)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
     tzinfo (1.2.2)
@@ -130,6 +134,7 @@ GEM
     unicode-display_width (1.1.1)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -137,7 +142,7 @@ DEPENDENCIES
   minima
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.2.3p0 (jruby 9.0.5.0)
 
 BUNDLED WITH
-   1.13.0
+   1.13.1
