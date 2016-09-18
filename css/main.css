@@ -115,7 +115,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: 10px;
-    }   
+    }
     .pg-map{
     max-height: 25%;
     max-width: 25%;
@@ -171,4 +171,12 @@ header {
 
 header a {
     color: white;
+}
+
+.btn-primary{
+    background-color:#6F1123;
+}
+
+.btn-primary:hover{
+    background-color:black;
 }
