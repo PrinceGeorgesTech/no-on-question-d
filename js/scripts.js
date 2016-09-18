@@ -1,6 +1,3 @@
-
-window.onload = function() {
-
 var addthis_share = addthis_share || {}
 addthis_share = {
     passthrough : {
@@ -34,8 +31,8 @@ function post(path, params, method) {
     form.submit();
 }
 
+window.onload = function() {
 $('#donate-button').click(function() {
     post('https://www.paypal.com/cgi-bin/webscr', {'cmd': '_s-xclick', 'hosted_button_id': '7JE3Z4BSC72TY'})    
 });
-
 };
