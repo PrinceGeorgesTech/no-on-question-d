@@ -9,7 +9,7 @@ img.flag {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
-  
+
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
@@ -46,7 +46,7 @@ img.flag {
     max-height: 60%;
     max-width: 50%;
     margin: 0 auto;
-  
+
 }
 .pg-council-image{
     max-height: 80%;
@@ -138,7 +138,7 @@ blockquote {
 
 
 .regular-text {
-    color: white; 
+    color: white;
     font-size:24px;
 }
 
@@ -264,3 +264,8 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+/* Footer CSS */
+.footer-text {
+  background-color:black;
+  color: white;
+}
