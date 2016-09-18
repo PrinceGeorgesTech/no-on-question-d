@@ -26,7 +26,3 @@ markdown: kramdown
 theme: minima
 
 repository: PrinceGeorgesTech/no-on-question-d.github.io
-
-# External links
-donate_url: "https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=LmsbPxQAqqoIuFONpx-YcIhCXPV12mRW11AVAeGbL6YyrK1N-MdfdTCTo8G&dispatch=5885d80a13c0db1f8e263663d3faee8d4fe1dd75ca3bd4f11d72275b28239088"
-
