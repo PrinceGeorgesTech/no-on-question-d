@@ -31,14 +31,33 @@ img.flag {
     margin-bottom: 5px;
 }
 .pg-map{
-    max-height: 25%;
-    max-width: 25%;
+    max-height: 50%;
+    max-width: 50%;
     float: right;
     margin-right: 1%;
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: 25px;
 }
+.pg-council{
+    background-color:black;
+    text-align: center;
+    border: 12px solid black;
+    max-height: 60%;
+    max-width: 50%;
+    margin: 0 auto;
+  
+}
+.pg-council-image{
+    max-height: 80%;
+    max-width: 80%;
+}
+.pg-council-text{
+    background-color: black;
+    max-width: 50%;
+    max-height: 60%;
+}
+
 hr {
     height:1px;
     border-top: 2px dotted black;
@@ -117,6 +136,18 @@ blockquote {
     text-align: center;
 }
 
+
+.regular-text {
+    color: white; 
+    font-size:24px;
+}
+
+.red-text {
+    color:red;
+    font-size: 24px;
+}
+
+
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: white;
@@ -134,15 +165,32 @@ blockquote {
     margin-left: 10px;
     }
     .pg-map{
-    max-height: 25%;
-    max-width: 25%;
+    max-height: 60%;
+    max-width: 60%;
     float: right;
     margin-right: 1%;
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: 10px;
     }
+    .pg-council{
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+    font-size: auto;
+    }
+    .pg-council-image{
+    max-height: 100%;
+    max-width: 100%;
+    }
 
+    .regular-text {
+    font-size:16px;
+}
+
+    .red-text {
+    font-size: 16px;
+}
 }
 
 .navbar .navbar-nav {
