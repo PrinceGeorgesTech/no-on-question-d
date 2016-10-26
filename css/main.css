@@ -24,8 +24,8 @@ img.flag {
 }
 
 .pg-seal{
-    max-height: 15%;
-    max-width: 15%;
+    max-height: 13%;
+    max-width: 13%;
     float: left;
     margin-right: 2%;
     margin-bottom: 5px;
@@ -146,9 +146,18 @@ blockquote {
     color:red;
     font-size: 24px;
 }
-
+.well{
+    background-color: #000000;
+}
+@media (min-width: 767px) {
+   .image-container{
+    padding: 1% 10% 1% 10%;
+    margin: 0% 10% 0% 10%
+    }
+}
 
 @media (max-width: 767px) {
+
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: white;
     }
